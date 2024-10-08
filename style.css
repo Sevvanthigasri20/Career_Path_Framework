@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav{
+    margin:3rem auto;
+    border:2px solid black;
+    width:400px;
+    border-radius:20px;
+  
+    font-size:2rem;
+    line-height:5rem;
+}
+h1{
+    background-color:gold;
+    border-radius:1rem  1rem 0 0;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    border-top:1px solid black;
+}
+li a,
+li a:visited{
+    text-decoration:none;
+    color:black;
+}
+li a:hover, a:focus{
+    background-color:black;
+    color:whitesmoke;
+}
+li a{
+    display:block;
+}
+li:last-child a{
+    border-radius:0 0 1rem 1rem;
+}
+p{
+    font-size:2rem;
+}
+
